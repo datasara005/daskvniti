@@ -10,11 +10,10 @@
     android:gravity="center|top">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/musicphoto"
         android:layout_width="190dp"
         android:layout_height="190dp"
         android:layout_weight="0"
-        android:src="@drawable/musical_note"
         android:layout_marginTop="50dp"/>
     <SeekBar
         android:id="@+id/positionbar"
@@ -35,7 +34,7 @@
         android:layout_marginLeft="40dp"
         />
     <TextView
-        android:id="@+id/remainingtome"
+        android:id="@+id/remainingtime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-1:11"
